@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#fpage{
+    background-color: #1E2126;
+} 
+.untitled img{
+    width: 50%;
+    padding-top: 250px; 
+    padding-bottom: 200px;
+    padding-left: 60px;
+    height: 8%;
+} 
+#vector{
+     height: 150px;
+     width: 300px;
+}
+.login{
+    width: 300px;
+    padding: 3rem;
+}
+#img1{
+width: 7rem;
+height: 5rem;
+}
+.img2{
+    width: 20rem;
+    height: 20rem;
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+h3{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+.box1{
+    background-color: #0B66C3;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 3rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+}
+.box1 h2{
+    padding: 0.5rem 0 0.5rem;
+}
+.box2, .box3{
+    width: 20rem;
+    height: 2.5rem;
+    border-style: solid;
+    border-color: #1E2126;
+    border-width: 0.1rem;
+    border-radius: 3rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.box3 img{
+    width: 4%;
+    height: 15px;
+    padding: 0.2rem 0 0.5rem;
+}
+.box2 a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;  
+}
+i{
+    padding: 0.5rem 0 0.5rem;
+}
+h4 a{
+    text-decoration: none;
+    color: #0B66C3;
+    text-align: center;
+    font-weight: 700;
+    align-items: center;
+}
+.box3 a{
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+}
+div.scrollmenu{
+    overflow: auto;
+    white-space: nowrap;
+}
+.scrollmenu .login{
+     display: inline-block;
+}
+
+    @media screen and (max-width: 700px)
+    {
+        .login{
+            padding: 1.2rem;
+            width: 280px;
+        }
+        input{
+            width: 15rem;
+            height: 2rem;
+        }
+        .img2{
+            width: 15rem;
+        }
+        .img2 img{
+            width: 100%;
+        }
+        .box1{
+            width: 15rem;
+            height: 2rem;
+            font-size: 11px;
+            margin-top: 0;
+        }
+        .box2{
+            width: 15rem;
+            height: 2rem;
+            font-size: 10px;
+        }
+        .box1 h2{
+            font-size: 10px;
+        }
+        .box3{
+            width: 15rem;
+            height: 2rem;
+            font-size: 10px;
+        }
+        .untitled img{
+            width: 50%;
+            padding: 240px 70px 180px; 
+        }
+        #vector{
+            height: 150px;
+            width: 280px;
+       }
+       h3{
+           font-size: 12px;
+           text-align: center;
+       }
+       h4 a{
+           font-size: 10px;
+       }
+       .box3 img{
+        width: 5%;
+        height: 10px;
+        padding: 0.2rem 0 0.2rem;
+         }
+    }
